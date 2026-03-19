@@ -1,0 +1,14 @@
+ERC-Bericht (2026-03-19T22:11:48+0100, UTF8-kodiert)
+
+***** Schaltplan /
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error
+    @(111,76 mm, 50,80 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error
+    @(127,00 mm, 50,80 mm): Symbol #PWR011 Pin 1 [Stromversorgung, Linie]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error
+    @(105,41 mm, 91,44 mm): Symbol #PWR01 Pin 1 [Stromversorgung, Linie]
+
+ ** ERC-Meldungen: 3  Fehler 3  Warnungen 0
