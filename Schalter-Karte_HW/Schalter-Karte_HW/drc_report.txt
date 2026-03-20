@@ -1,61 +1,52 @@
 ** Drc report for Schalter-Karte_HW.kicad_pcb **
-** Created on 2026-03-19T22:11:48+0100 **
+** Created on 2026-03-20T14:37:19+0100 **
 
 ** Found 1 DRC violations **
-[silk_edge_clearance]: Bestückungsdruck durch Platinenkante abgeschnitten
-    Regel: Einschränkungen aus Platinenkonfiguration zum Bestückungsdruck; warning
-    @(69,5000 mm, 53,0000 mm): Rechteck auf Edge.Cuts
-    @(78,0400 mm, 52,8800 mm): Referenzfeld von J1
+[items_not_allowed]: Nicht erlaubte Elemente (Sperrbereich "keepout")
+    Regel: Sperrbereich "keepout"; error
+    @(78,2500 mm, 128,0000 mm): Footprint J3
 
-** Found 12 unconnected pads **
+** Found 10 unconnected pads **
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(75,2800 mm, 103,9000 mm): Durchsteckpad 5 [+24V_sicher] von SW1
-    @(81,0000 mm, 103,9000 mm): Durchsteckpad 2 [+24V_sicher] von SW1
+    @(75,3900 mm, 110,9000 mm): Durchsteckpad 2 [+24V_sicher] von SW1
+    @(81,1100 mm, 110,9000 mm): Durchsteckpad 5 [+24V_sicher] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(75,8000 mm, 85,2350 mm): Durchsteckpad 1 [+24V_sicher] von F1
-    @(75,2800 mm, 103,9000 mm): Durchsteckpad 5 [+24V_sicher] von SW1
+    @(76,5500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
+    @(75,3900 mm, 110,9000 mm): Durchsteckpad 2 [+24V_sicher] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(79,2000 mm, 85,2350 mm): Durchsteckpad 1 [+24V_sicher] von F1
-    @(75,8000 mm, 85,2350 mm): Durchsteckpad 1 [+24V_sicher] von F1
+    @(79,9500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
+    @(76,5500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(75,8000 mm, 71,7650 mm): Durchsteckpad 2 [+24V] von F1
-    @(79,2000 mm, 71,7650 mm): Durchsteckpad 2 [+24V] von F1
+    @(75,7100 mm, 71,5000 mm): Durchsteckpad 2 [+24V] von J1
+    @(76,5500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(79,2000 mm, 71,7650 mm): Durchsteckpad 2 [+24V] von F1
-    @(80,5800 mm, 60,5000 mm): Durchsteckpad 2 [+24V] von J1
+    @(76,5500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
+    @(79,9500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(135,7150 mm, 64,9010 mm): Durchsteckpad 1 [+24V] von J2
-    @(80,5800 mm, 60,5000 mm): Durchsteckpad 2 [+24V] von J1
+    @(78,2500 mm, 128,0000 mm): Durchsteckpad 2 [GND] von J3
+    @(80,7900 mm, 71,5000 mm): Durchsteckpad 1 [GND] von J1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(75,5000 mm, 60,5000 mm): Durchsteckpad 1 [GND] von J1
-    @(78,4200 mm, 128,0000 mm): Durchsteckpad 2 [GND] von J3
+    @(81,1100 mm, 115,5000 mm): Durchsteckpad 4 [Net-(J3-Pin_3)] von SW1
+    @(75,3900 mm, 115,5000 mm): Durchsteckpad 3 [Net-(J3-Pin_3)] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(140,7950 mm, 64,9010 mm): Durchsteckpad 2 [GND] von J2
-    @(75,5000 mm, 60,5000 mm): Durchsteckpad 1 [GND] von J1
+    @(83,3300 mm, 128,0000 mm): Durchsteckpad 3 [Net-(J3-Pin_3)] von J3
+    @(81,1100 mm, 115,5000 mm): Durchsteckpad 4 [Net-(J3-Pin_3)] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(81,0000 mm, 99,3000 mm): Durchsteckpad 3 [Net-(J3-Pin_3)] von SW1
-    @(75,2800 mm, 99,3000 mm): Durchsteckpad 4 [Net-(J3-Pin_3)] von SW1
+    @(75,3900 mm, 106,3000 mm): Durchsteckpad 1 [Net-(J3-Pin_1)] von SW1
+    @(73,1700 mm, 128,0000 mm): Durchsteckpad 1 [Net-(J3-Pin_1)] von J3
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(83,5000 mm, 128,0000 mm): Durchsteckpad 3 [Net-(J3-Pin_3)] von J3
-    @(81,0000 mm, 99,3000 mm): Durchsteckpad 3 [Net-(J3-Pin_3)] von SW1
-[unconnected_items]: Fehlende Verbindung zwischen Elementen
-    Lokale Überschreibung; error
-    @(75,2800 mm, 108,5000 mm): Durchsteckpad 6 [Net-(J3-Pin_1)] von SW1
-    @(73,3400 mm, 128,0000 mm): Durchsteckpad 1 [Net-(J3-Pin_1)] von J3
-[unconnected_items]: Fehlende Verbindung zwischen Elementen
-    Lokale Überschreibung; error
-    @(81,0000 mm, 108,5000 mm): Durchsteckpad 1 [Net-(J3-Pin_1)] von SW1
-    @(75,2800 mm, 108,5000 mm): Durchsteckpad 6 [Net-(J3-Pin_1)] von SW1
+    @(81,1100 mm, 106,3000 mm): Durchsteckpad 6 [Net-(J3-Pin_1)] von SW1
+    @(75,3900 mm, 106,3000 mm): Durchsteckpad 1 [Net-(J3-Pin_1)] von SW1
 
 ** Found 0 Footprint errors **
 
