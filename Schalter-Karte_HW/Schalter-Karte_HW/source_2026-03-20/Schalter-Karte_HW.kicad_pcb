@@ -90,8 +90,8 @@
 	(net 1 "+24V_sicher")
 	(net 2 "+24V")
 	(net 3 "GND")
-	(net 4 "Net-(J3-Pin_3)")
-	(net 5 "Net-(J3-Pin_1)")
+	(net 4 "Net-(J2-Pin_3)")
+	(net 5 "Net-(J2-Pin_1)")
 	(footprint "_PS_LIB_MECH:L10101_Schiebeschalter"
 		(layer "F.Cu")
 		(uuid "03625a4d-101c-4919-a8db-715d21d14d14")
@@ -146,7 +146,20 @@
 				)
 			)
 		)
-		(path "/4d4db3e6-8675-42b8-8b9c-e6028d555231")
+		(property "Digikey" "CKC5106-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d4e3ed-df01-4abd-91a1-567907106f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5fcf67bd-565a-4a5a-9627-8ecd9d5c0208")
 		(sheetname "/")
 		(sheetfile "Schalter-Karte_HW.kicad_sch")
 		(attr through_hole)
@@ -3028,7 +3041,7 @@
 			(drill 1.65)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J3-Pin_1)")
+			(net 5 "Net-(J2-Pin_1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5ee28cad-5aff-4d70-a166-18b25bb9528a")
@@ -3050,7 +3063,7 @@
 			(drill 1.65)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(J3-Pin_3)")
+			(net 4 "Net-(J2-Pin_3)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "f6058d1b-043e-4c21-8fb2-fcf249952cb5")
@@ -3061,7 +3074,7 @@
 			(drill 1.65)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(J3-Pin_3)")
+			(net 4 "Net-(J2-Pin_3)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a9df0bfc-0ddf-4b57-870a-3c7494147d26")
@@ -3083,7 +3096,7 @@
 			(drill 1.65)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J3-Pin_1)")
+			(net 5 "Net-(J2-Pin_1)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "3091b101-a190-4b26-bbc1-1eb495eee845")
@@ -3124,7 +3137,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Socket"
+		(property "Value" "3557-2"
 			(at 0 0.25 90)
 			(layer "F.Fab")
 			(uuid "a628db55-1bbd-48d7-89cb-e3b7b243b074")
@@ -3135,7 +3148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3160,7 +3173,7 @@
 			)
 		)
 		(property ki_fp_filters "*Fuse*")
-		(path "/1163992f-5477-44fd-8301-330492b6a752")
+		(path "/1a787869-4802-4f14-b7a6-0699002ac823")
 		(sheetname "/")
 		(sheetfile "Schalter-Karte_HW.kicad_sch")
 		(attr through_hole)
@@ -3290,7 +3303,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "+24V_sicher")
+			(net 2 "+24V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "1edf0643-c46f-479c-a9c6-2fec3c87d39c")
@@ -3301,10 +3314,10 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "+24V_sicher")
+			(net 2 "+24V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1edf0643-c46f-479c-a9c6-2fec3c87d39c")
+			(uuid "a8bd98d9-3319-424b-be61-1db356bee97c")
 		)
 		(pad "2" thru_hole circle
 			(at 6.735 -1.7 90)
@@ -3312,7 +3325,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "+24V")
+			(net 1 "+24V_sicher")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "895a5cc8-7933-41ce-ab89-0dcdaacb807f")
@@ -3323,10 +3336,10 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "+24V")
+			(net 1 "+24V_sicher")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "895a5cc8-7933-41ce-ab89-0dcdaacb807f")
+			(uuid "995d863b-da6d-4abc-90f7-7a2b69e2012a")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -3364,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Value" "MKDS 3-2 5.08"
+		(property "Value" "MKDS_3-2_5.08"
 			(at -0.25 -6.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3376,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product-download.phoenixcontact.com/2848324?response-content-disposition=inline;%20filename%3D%221711725_04_de_00.pdf%22&Expires=1774048874&Signature=iFyT5B3-womW6lKjp5XGzWeua--BUis2SV37lsN3fOwrxLgEMLrA23TCmt7nlwi7ykr87Ps5xEHVs57OHbg5HRkkk59gv3io6WeBmuQRAZV6weoNLPtYcPQeNLn5aF1XU7IeUHNLEPTX941vJscEzGtP~Ohp3b7MZL1cCDfW5h5gjoo-aowUyONotC1zxuNCCh7kpnCXrhsvQVzKOYEZP~kIA8L3KVBHTrZZ6dlP381ao0AsK~O514~kd4FiCUoDK9G-yYP6HXF56mm67ftfuCnE63yGKMlMc9a1CFPGwdcLvfi1mXo0DWzryEcO6ogvtp8cLC18eKrYcvQZf0Ukdg__&Key-Pair-Id=K1I2N54A7B0GD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3388,7 +3401,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Leiterplattenklemme, Wellenlötung, Schrauban- schluss mit Zughülse"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3400,8 +3413,47 @@
 				)
 			)
 		)
+		(property "Digikey" "277-1027-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "252f9d84-ae32-4c74-a82b-fac2f789c943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64eb6fd2-b79e-484b-9d23-65653ed47755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef37388-6d2e-4de2-b756-1e1ac7f5f680")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/00f227ff-f409-4580-a953-8f40b6bff986")
+		(path "/d394f540-1b60-4ccd-b206-4c3fe8573c6d")
 		(sheetname "/")
 		(sheetfile "Schalter-Karte_HW.kicad_sch")
 		(attr smd)
@@ -4835,7 +4887,7 @@
 		(layer "F.Cu")
 		(uuid "f8d4e6ec-6106-4e6f-bb53-1677b1f0dadc")
 		(at 78.25 128)
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at -6.75 -6.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4847,7 +4899,7 @@
 				)
 			)
 		)
-		(property "Value" "MKDS 3-3 5.08"
+		(property "Value" "MKDS_3-3_5.08"
 			(at 0 4 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4859,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-3-3-508-1711738?type=pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4871,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "Leiterplattenklemme, Wellenlötung, Schrauban- schluss mit Zughülse"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4883,8 +4935,21 @@
 				)
 			)
 		)
+		(property "Digikey" "277-1028-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479215af-8c6b-46c6-b663-b23d10aa1ac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/68f962f9-acf7-4c23-9d88-96ebe79aaff3")
+		(path "/238981bc-f906-4896-aebf-114afbd7f609")
 		(sheetname "/")
 		(sheetfile "Schalter-Karte_HW.kicad_sch")
 		(attr through_hole)
@@ -6430,7 +6495,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J3-Pin_1)")
+			(net 5 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "7a2abd1e-2906-48f0-9f3b-9c1c4433d634")
@@ -6452,7 +6517,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(J3-Pin_3)")
+			(net 4 "Net-(J2-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "37637778-424c-4c03-8c07-4b3d630c2e08")

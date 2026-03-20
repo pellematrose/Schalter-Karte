@@ -208,7 +208,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-20T20:47:13" software="KiCad EDA" lastChange="2026-03-20T20:47:13">
+  <HistoryRecord number="1" origination="2026-03-20T21:28:50" software="KiCad EDA" lastChange="2026-03-20T21:28:50">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.7" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -219,27 +219,32 @@
     <BomHeader revision="1.0" assembly="Schalter-Karte_HW_2">
       <StepRef name="Schalter-Karte_HW"/>
     </BomHeader>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_Fuse Socket" quantity="1" pinCount="4" category="ELECTRICAL">
+    <BomItem OEMDesignNumberRef="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2" quantity="1" pinCount="4" category="ELECTRICAL">
       <RefDes name="F1" packageRef="Fuse Holder Littelfuse ATOF 287" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
-        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="Fuse Socket"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="3557-2"/>
       </Characteristics>
     </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_2_508_MKDS 3-2 5.08" quantity="1" pinCount="2" category="ELECTRICAL">
+    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08" quantity="1" pinCount="2" category="ELECTRICAL">
       <RefDes name="J1" packageRef="MKDS_3_2_508" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
-        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS 3-2 5.08"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="277-1027-ND"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="LCSC" textualCharacteristicValue=""/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Mouser" textualCharacteristicValue=""/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS_3-2_5.08"/>
       </Characteristics>
     </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_3_508_MKDS 3-3 5.08" quantity="1" pinCount="3" category="ELECTRICAL">
-      <RefDes name="J3" packageRef="MKDS_3_3_508" populate="true" layerRef="F.Cu"/>
+    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08" quantity="1" pinCount="3" category="ELECTRICAL">
+      <RefDes name="J2" packageRef="MKDS_3_3_508" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
-        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS 3-3 5.08"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="277-1028-ND"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS_3-3_5.08"/>
       </Characteristics>
     </BomItem>
     <BomItem OEMDesignNumberRef="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q" quantity="1" pinCount="6" category="ELECTRICAL">
       <RefDes name="SW1" packageRef="L10101_Schiebeschalter" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="CKC5106-ND"/>
         <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="L101011MS02Q"/>
       </Characteristics>
     </BomItem>
@@ -1692,20 +1697,17 @@
                     <LineDescRef id="LINE_2"/>
                   </Polyline>
                   <Polyline>
-                    <PolyBegin x="-6.702380" y="7.045180"/>
-                    <PolyStepSegment x="-6.083333" y="7.045180"/>
-                    <PolyStepSegment x="-6.416666" y="6.664228"/>
-                    <PolyStepSegment x="-6.273809" y="6.664228"/>
-                    <PolyStepSegment x="-6.178571" y="6.616609"/>
-                    <PolyStepSegment x="-6.130952" y="6.568990"/>
-                    <PolyStepSegment x="-6.083333" y="6.473752"/>
-                    <PolyStepSegment x="-6.083333" y="6.235657"/>
-                    <PolyStepSegment x="-6.130952" y="6.140419"/>
-                    <PolyStepSegment x="-6.178571" y="6.09280"/>
-                    <PolyStepSegment x="-6.273809" y="6.045180"/>
-                    <PolyStepSegment x="-6.559523" y="6.045180"/>
-                    <PolyStepSegment x="-6.654761" y="6.09280"/>
-                    <PolyStepSegment x="-6.702380" y="6.140419"/>
+                    <PolyBegin x="-6.654761" y="6.949942"/>
+                    <PolyStepSegment x="-6.607142" y="6.997561"/>
+                    <PolyStepSegment x="-6.511904" y="7.045180"/>
+                    <PolyStepSegment x="-6.273809" y="7.045180"/>
+                    <PolyStepSegment x="-6.178571" y="6.997561"/>
+                    <PolyStepSegment x="-6.130952" y="6.949942"/>
+                    <PolyStepSegment x="-6.083333" y="6.854704"/>
+                    <PolyStepSegment x="-6.083333" y="6.759466"/>
+                    <PolyStepSegment x="-6.130952" y="6.616609"/>
+                    <PolyStepSegment x="-6.702380" y="6.045180"/>
+                    <PolyStepSegment x="-6.083333" y="6.045180"/>
                     <LineDescRef id="LINE_2"/>
                   </Polyline>
                 </UserSpecial>
@@ -1749,30 +1751,30 @@
           <Xform rotation="90.0"/>
           <Location x="78.250" y="-110.90"/>
         </Component>
-        <Component refDes="F1" packageRef="Fuse Holder Littelfuse ATOF 287_2" part="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_Fuse Socket" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="F1" packageRef="Fuse Holder Littelfuse ATOF 287_2" part="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2" layerRef="F.Cu" mountType="THMT">
           <Xform rotation="90.0"/>
           <Location x="78.250" y="-89.0"/>
         </Component>
-        <Component refDes="J1" packageRef="MKDS_3_2_508_3" part="_PS_LIB_CON_MKDS_3_2_508_MKDS 3-2 5.08" layerRef="F.Cu" mountType="SMT">
+        <Component refDes="J1" packageRef="MKDS_3_2_508_3" part="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08" layerRef="F.Cu" mountType="SMT">
           <Xform rotation="180.0"/>
           <Location x="78.250" y="-71.50"/>
         </Component>
-        <Component refDes="J3" packageRef="MKDS_3_3_508_4" part="_PS_LIB_CON_MKDS_3_3_508_MKDS 3-3 5.08" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="J2" packageRef="MKDS_3_3_508_4" part="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08" layerRef="F.Cu" mountType="THMT">
           <Location x="78.250" y="-128.0"/>
         </Component>
         <LayerFeature layerRef="F.Cu">
           <Set net="+24V">
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-82.2650"/>
+              <Location x="76.550" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-82.2650"/>
+              <Location x="79.950" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_3">
               <Xform rotation="180.0"/>
@@ -1796,15 +1798,15 @@
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-95.7350"/>
+              <Location x="76.550" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-95.7350"/>
+              <Location x="79.950" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
           </Set>
           <Set net="GND">
@@ -1817,10 +1819,10 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="78.250" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="2"/>
+              <PinRef componentRef="J2" pin="2"/>
             </Pad>
           </Set>
-          <Set net="Net-(J3-Pin_1)">
+          <Set net="Net-(J2-Pin_1)">
             <Pad padstackDefRef="PADSTACK_1">
               <Xform rotation="90.0"/>
               <Location x="75.390" y="-106.30"/>
@@ -1836,10 +1838,10 @@
             <Pad padstackDefRef="PADSTACK_4">
               <Location x="73.170" y="-128.0"/>
               <StandardPrimitiveRef id="RECT_4"/>
-              <PinRef componentRef="J3" pin="1"/>
+              <PinRef componentRef="J2" pin="1"/>
             </Pad>
           </Set>
-          <Set net="Net-(J3-Pin_3)">
+          <Set net="Net-(J2-Pin_3)">
             <Pad padstackDefRef="PADSTACK_1">
               <Xform rotation="90.0"/>
               <Location x="75.390" y="-115.50"/>
@@ -1855,7 +1857,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="83.330" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="3"/>
+              <PinRef componentRef="J2" pin="3"/>
             </Pad>
           </Set>
         </LayerFeature>
@@ -1863,15 +1865,15 @@
           <Set>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-82.2650"/>
+              <Location x="76.550" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-82.2650"/>
+              <Location x="79.950" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_3">
               <Xform rotation="180.0"/>
@@ -1895,15 +1897,15 @@
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-95.7350"/>
+              <Location x="76.550" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-95.7350"/>
+              <Location x="79.950" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
           </Set>
           <Set>
@@ -1916,7 +1918,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="78.250" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="2"/>
+              <PinRef componentRef="J2" pin="2"/>
             </Pad>
           </Set>
           <Set>
@@ -1935,7 +1937,7 @@
             <Pad padstackDefRef="PADSTACK_4">
               <Location x="73.170" y="-128.0"/>
               <StandardPrimitiveRef id="RECT_4"/>
-              <PinRef componentRef="J3" pin="1"/>
+              <PinRef componentRef="J2" pin="1"/>
             </Pad>
           </Set>
           <Set>
@@ -1954,7 +1956,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="83.330" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="3"/>
+              <PinRef componentRef="J2" pin="3"/>
             </Pad>
           </Set>
         </LayerFeature>
@@ -1962,15 +1964,15 @@
           <Set net="+24V">
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-82.2650"/>
+              <Location x="76.550" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-82.2650"/>
+              <Location x="79.950" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_3">
               <Xform rotation="180.0"/>
@@ -1994,15 +1996,15 @@
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-95.7350"/>
+              <Location x="76.550" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-95.7350"/>
+              <Location x="79.950" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
           </Set>
           <Set net="GND">
@@ -2015,10 +2017,10 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="78.250" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="2"/>
+              <PinRef componentRef="J2" pin="2"/>
             </Pad>
           </Set>
-          <Set net="Net-(J3-Pin_1)">
+          <Set net="Net-(J2-Pin_1)">
             <Pad padstackDefRef="PADSTACK_1">
               <Xform rotation="90.0"/>
               <Location x="75.390" y="-106.30"/>
@@ -2034,10 +2036,10 @@
             <Pad padstackDefRef="PADSTACK_4">
               <Location x="73.170" y="-128.0"/>
               <StandardPrimitiveRef id="RECT_4"/>
-              <PinRef componentRef="J3" pin="1"/>
+              <PinRef componentRef="J2" pin="1"/>
             </Pad>
           </Set>
-          <Set net="Net-(J3-Pin_3)">
+          <Set net="Net-(J2-Pin_3)">
             <Pad padstackDefRef="PADSTACK_1">
               <Xform rotation="90.0"/>
               <Location x="75.390" y="-115.50"/>
@@ -2053,7 +2055,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="83.330" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="3"/>
+              <PinRef componentRef="J2" pin="3"/>
             </Pad>
           </Set>
         </LayerFeature>
@@ -2061,15 +2063,15 @@
           <Set>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-82.2650"/>
+              <Location x="76.550" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-82.2650"/>
+              <Location x="79.950" y="-95.7350"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="2"/>
+              <PinRef componentRef="F1" pin="1"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_3">
               <Xform rotation="180.0"/>
@@ -2093,15 +2095,15 @@
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="76.550" y="-95.7350"/>
+              <Location x="76.550" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
             <Pad padstackDefRef="PADSTACK_2">
               <Xform rotation="90.0"/>
-              <Location x="79.950" y="-95.7350"/>
+              <Location x="79.950" y="-82.2650"/>
               <StandardPrimitiveRef id="CIRCLE_2"/>
-              <PinRef componentRef="F1" pin="1"/>
+              <PinRef componentRef="F1" pin="2"/>
             </Pad>
           </Set>
           <Set>
@@ -2114,7 +2116,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="78.250" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="2"/>
+              <PinRef componentRef="J2" pin="2"/>
             </Pad>
           </Set>
           <Set>
@@ -2133,7 +2135,7 @@
             <Pad padstackDefRef="PADSTACK_4">
               <Location x="73.170" y="-128.0"/>
               <StandardPrimitiveRef id="RECT_4"/>
-              <PinRef componentRef="J3" pin="1"/>
+              <PinRef componentRef="J2" pin="1"/>
             </Pad>
           </Set>
           <Set>
@@ -2152,7 +2154,7 @@
             <Pad padstackDefRef="PADSTACK_5">
               <Location x="83.330" y="-128.0"/>
               <StandardPrimitiveRef id="CIRCLE_5"/>
-              <PinRef componentRef="J3" pin="3"/>
+              <PinRef componentRef="J2" pin="3"/>
             </Pad>
           </Set>
         </LayerFeature>
@@ -3064,7 +3066,7 @@
               <Location x="0.0" y="0.0"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.060011" startY="-131.956952" endX="70.060011" endY="-131.243033">
@@ -3072,7 +3074,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.060011" startY="-131.956952" endX="70.322985" endY="-131.956952">
@@ -3080,7 +3082,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.322985" startY="-131.243033" endX="70.060011" endY="-131.243033">
@@ -3088,7 +3090,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.322985" startY="-131.956952" endX="70.501320" endY="-131.806993">
@@ -3096,7 +3098,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.501320" startY="-131.392993" endX="70.322985" endY="-131.243033">
@@ -3104,7 +3106,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.501320" startY="-131.806993" endX="70.630011" endY="-131.806993">
@@ -3112,7 +3114,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-122.568513" endX="70.630011" endY="-122.299993">
@@ -3120,7 +3122,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-123.366610" endX="70.630011" endY="-122.568513">
@@ -3128,7 +3130,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-123.366610" endX="70.630011" endY="-124.296501">
@@ -3136,7 +3138,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-124.572740" endX="70.630011" endY="-124.296501">
@@ -3144,7 +3146,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-124.872558" endX="70.630011" endY="-124.572740">
@@ -3152,7 +3154,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-130.499993" endX="70.630011" endY="-124.872558">
@@ -3160,7 +3162,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.392993" endX="70.501320" endY="-131.392993">
@@ -3168,7 +3170,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.392993" endX="70.630011" endY="-130.499993">
@@ -3176,7 +3178,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.806993" endX="70.630011" endY="-131.392993">
@@ -3184,7 +3186,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.199993" endX="70.630011" endY="-131.806993">
@@ -3192,7 +3194,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.499993" endX="70.630011" endY="-133.199993">
@@ -3200,7 +3202,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.499993" endX="85.870011" endY="-133.499993">
@@ -3208,7 +3210,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.299993" endX="70.630011" endY="-122.299993">
@@ -3216,7 +3218,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.299993" endX="85.870011" endY="-122.568513">
@@ -3224,7 +3226,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.568513" endX="85.870011" endY="-123.366610">
@@ -3232,7 +3234,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.296501" endX="85.870011" endY="-123.366610">
@@ -3240,7 +3242,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.296501" endX="85.870011" endY="-124.572740">
@@ -3248,7 +3250,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.572740" endX="85.870011" endY="-124.872558">
@@ -3256,7 +3258,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.872558" endX="85.870011" endY="-130.499993">
@@ -3264,7 +3266,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-130.499993" endX="85.870011" endY="-133.199993">
@@ -3272,7 +3274,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-133.199993" endX="85.870011" endY="-133.499993">
@@ -3280,8 +3282,8 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="TEXT" componentRef="J3">
-            <NonstandardAttribute name="TEXT" value="J3" type="STRING"/>
+          <Set geometryUsage="TEXT" componentRef="J2">
+            <NonstandardAttribute name="TEXT" value="J2" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
@@ -3295,20 +3297,17 @@
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
-                  <PolyBegin x="71.547619" y="-120.954819"/>
-                  <PolyStepSegment x="72.166666" y="-120.954819"/>
-                  <PolyStepSegment x="71.833333" y="-121.335771"/>
-                  <PolyStepSegment x="71.976190" y="-121.335771"/>
-                  <PolyStepSegment x="72.071428" y="-121.383390"/>
-                  <PolyStepSegment x="72.119047" y="-121.431009"/>
-                  <PolyStepSegment x="72.166666" y="-121.526247"/>
-                  <PolyStepSegment x="72.166666" y="-121.764342"/>
-                  <PolyStepSegment x="72.119047" y="-121.859580"/>
-                  <PolyStepSegment x="72.071428" y="-121.90720"/>
-                  <PolyStepSegment x="71.976190" y="-121.954819"/>
-                  <PolyStepSegment x="71.690476" y="-121.954819"/>
-                  <PolyStepSegment x="71.595238" y="-121.90720"/>
-                  <PolyStepSegment x="71.547619" y="-121.859580"/>
+                  <PolyBegin x="71.595238" y="-121.050057"/>
+                  <PolyStepSegment x="71.642857" y="-121.002438"/>
+                  <PolyStepSegment x="71.738095" y="-120.954819"/>
+                  <PolyStepSegment x="71.976190" y="-120.954819"/>
+                  <PolyStepSegment x="72.071428" y="-121.002438"/>
+                  <PolyStepSegment x="72.119047" y="-121.050057"/>
+                  <PolyStepSegment x="72.166666" y="-121.145295"/>
+                  <PolyStepSegment x="72.166666" y="-121.240533"/>
+                  <PolyStepSegment x="72.119047" y="-121.383390"/>
+                  <PolyStepSegment x="71.547619" y="-121.954819"/>
+                  <PolyStepSegment x="72.166666" y="-121.954819"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
               </UserSpecial>
@@ -4810,7 +4809,7 @@
               <UserPrimitiveRef id="UCIRCLE_6"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.060011" startY="-131.956952" endX="70.060011" endY="-131.243033">
@@ -4818,7 +4817,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.060011" startY="-131.956952" endX="70.322985" endY="-131.956952">
@@ -4826,7 +4825,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.322985" startY="-131.243033" endX="70.060011" endY="-131.243033">
@@ -4834,7 +4833,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.322985" startY="-131.956952" endX="70.501320" endY="-131.806993">
@@ -4842,7 +4841,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.501320" startY="-131.392993" endX="70.322985" endY="-131.243033">
@@ -4850,7 +4849,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.501320" startY="-131.806993" endX="70.630011" endY="-131.806993">
@@ -4858,7 +4857,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-122.568513" endX="70.630011" endY="-122.299993">
@@ -4866,7 +4865,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-123.366610" endX="70.630011" endY="-122.568513">
@@ -4874,7 +4873,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-123.366610" endX="70.630011" endY="-124.296501">
@@ -4882,7 +4881,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-123.366610" endX="85.870011" endY="-123.366610">
@@ -4890,7 +4889,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-124.572740" endX="70.630011" endY="-124.296501">
@@ -4898,7 +4897,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-124.872558" endX="70.630011" endY="-124.572740">
@@ -4906,7 +4905,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-130.499993" endX="70.630011" endY="-124.872558">
@@ -4914,7 +4913,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.392993" endX="70.501320" endY="-131.392993">
@@ -4922,7 +4921,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.392993" endX="70.630011" endY="-130.499993">
@@ -4930,7 +4929,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-131.806993" endX="70.630011" endY="-131.392993">
@@ -4938,7 +4937,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.199993" endX="70.630011" endY="-131.806993">
@@ -4946,7 +4945,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.499993" endX="70.630011" endY="-133.199993">
@@ -4954,7 +4953,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.630011" startY="-133.499993" endX="85.870011" endY="-133.499993">
@@ -4962,7 +4961,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="72.096987" startY="-129.567991" endX="74.738009" endY="-126.926969">
@@ -4970,7 +4969,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="73.170011" startY="-125.799993" endX="73.170011" endY="-130.199993">
@@ -4978,7 +4977,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="74.243035" startY="-126.431994" endX="71.602012" endY="-129.073017">
@@ -4986,7 +4985,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="75.370011" startY="-127.999993" endX="70.970011" endY="-127.999993">
@@ -4994,7 +4993,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="77.176987" startY="-129.567991" endX="79.818009" endY="-126.926969">
@@ -5002,7 +5001,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="78.250011" startY="-125.799993" endX="78.250011" endY="-130.199993">
@@ -5010,7 +5009,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="79.323035" startY="-126.431994" endX="76.682012" endY="-129.073017">
@@ -5018,7 +5017,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="80.450011" startY="-127.999993" endX="76.050011" endY="-127.999993">
@@ -5026,7 +5025,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="82.256987" startY="-129.567991" endX="84.898009" endY="-126.926969">
@@ -5034,7 +5033,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="83.330011" startY="-125.799993" endX="83.330011" endY="-130.199993">
@@ -5042,7 +5041,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="84.403035" startY="-126.431994" endX="81.762012" endY="-129.073017">
@@ -5050,7 +5049,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.530011" startY="-127.999993" endX="81.130011" endY="-127.999993">
@@ -5058,7 +5057,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.299993" endX="70.630011" endY="-122.299993">
@@ -5066,7 +5065,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.299993" endX="85.870011" endY="-122.568513">
@@ -5074,7 +5073,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-122.568513" endX="85.870011" endY="-123.366610">
@@ -5082,7 +5081,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.296501" endX="85.870011" endY="-123.366610">
@@ -5090,7 +5089,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.296501" endX="85.870011" endY="-124.572740">
@@ -5098,7 +5097,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.572740" endX="70.630011" endY="-124.572740">
@@ -5106,7 +5105,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.572740" endX="85.870011" endY="-124.872558">
@@ -5114,7 +5113,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-124.872558" endX="85.870011" endY="-130.499993">
@@ -5122,7 +5121,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-130.499993" endX="70.630011" endY="-130.499993">
@@ -5130,7 +5129,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-130.499993" endX="85.870011" endY="-133.199993">
@@ -5138,7 +5137,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.870011" startY="-133.199993" endX="85.870011" endY="-133.499993">
@@ -5146,7 +5145,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="71.602012" startY="-129.073017" endX="74.243035" endY="-126.431994" centerX="73.170011" centerY="-127.999993" clockwise="true">
@@ -5154,7 +5153,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="72.096987" startY="-129.567991" endX="71.602012" endY="-129.073017" centerX="73.170" centerY="-128.0" clockwise="true">
@@ -5162,7 +5161,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="74.243035" startY="-126.431994" endX="74.738009" endY="-126.926969" centerX="73.170018" centerY="-127.999982" clockwise="true">
@@ -5170,7 +5169,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="74.738009" startY="-126.926969" endX="72.096987" endY="-129.567991" centerX="73.170012" centerY="-127.999994" clockwise="true">
@@ -5178,7 +5177,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="76.682012" startY="-129.073017" endX="79.323035" endY="-126.431994" centerX="78.250011" centerY="-127.999993" clockwise="true">
@@ -5186,7 +5185,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="77.176987" startY="-129.567991" endX="76.682012" endY="-129.073017" centerX="78.250" centerY="-128.0" clockwise="true">
@@ -5194,7 +5193,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="79.323035" startY="-126.431994" endX="79.818009" endY="-126.926969" centerX="78.250020" centerY="-127.999980" clockwise="true">
@@ -5202,7 +5201,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="79.818009" startY="-126.926969" endX="77.176987" endY="-129.567991" centerX="78.250012" centerY="-127.999994" clockwise="true">
@@ -5210,7 +5209,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="81.762012" startY="-129.073017" endX="84.403035" endY="-126.431994" centerX="83.330011" centerY="-127.999993" clockwise="true">
@@ -5218,7 +5217,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="82.256987" startY="-129.567991" endX="81.762012" endY="-129.073017" centerX="83.330" centerY="-128.0" clockwise="true">
@@ -5226,7 +5225,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="84.403035" startY="-126.431994" endX="84.898009" endY="-126.926969" centerX="83.330" centerY="-128.0" clockwise="true">
@@ -5234,7 +5233,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="84.898009" startY="-126.926969" endX="82.256987" endY="-129.567991" centerX="83.330012" centerY="-127.999994" clockwise="true">
@@ -5242,31 +5241,31 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="73.170011" y="-127.999993"/>
               <UserPrimitiveRef id="UCIRCLE_13"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="75.710011" y="-126.299993"/>
               <UserPrimitiveRef id="UCIRCLE_14"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="78.250011" y="-127.999993"/>
               <UserPrimitiveRef id="UCIRCLE_15"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="80.790011" y="-126.299993"/>
               <UserPrimitiveRef id="UCIRCLE_16"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="83.330011" y="-127.999993"/>
               <UserPrimitiveRef id="UCIRCLE_17"/>
@@ -5352,7 +5351,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.650" startY="-122.20" endX="85.850" endY="-122.20">
@@ -5360,7 +5359,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.650" startY="-133.60" endX="70.650" endY="-122.20">
@@ -5368,7 +5367,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-122.20" endX="85.850" endY="-133.60">
@@ -5376,7 +5375,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-133.60" endX="70.650" endY="-133.60">
@@ -6781,159 +6780,86 @@
             </Features>
           </Set>
           <Set geometryUsage="TEXT" componentRef="F1">
-            <NonstandardAttribute name="TEXT" value="Fuse Socket" type="STRING"/>
+            <NonstandardAttribute name="TEXT" value="3557-2" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
-                <Line startX="78.431009" startY="-93.0" endX="78.431009" endY="-93.333333">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
                 <Polyline>
-                  <PolyBegin x="78.954819" y="-93.333333"/>
-                  <PolyStepSegment x="77.954819" y="-93.333333"/>
-                  <PolyStepSegment x="77.954819" y="-92.857143"/>
-                  <LineDescRef id="LINE_2"/>
-                </Polyline>
-                <Line startX="78.288152" startY="-92.047619" endX="78.954819" endY="-92.047619">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
-                <Polyline>
-                  <PolyBegin x="78.288152" y="-92.476190"/>
-                  <PolyStepSegment x="78.811961" y="-92.476190"/>
-                  <PolyStepSegment x="78.90720" y="-92.428571"/>
-                  <PolyStepSegment x="78.954819" y="-92.333333"/>
-                  <PolyStepSegment x="78.954819" y="-92.190476"/>
-                  <PolyStepSegment x="78.90720" y="-92.095238"/>
-                  <PolyStepSegment x="78.859580" y="-92.047619"/>
-                  <LineDescRef id="LINE_2"/>
-                </Polyline>
-                <Polyline>
-                  <PolyBegin x="78.90720" y="-91.619047"/>
-                  <PolyStepSegment x="78.954819" y="-91.523809"/>
-                  <PolyStepSegment x="78.954819" y="-91.333333"/>
-                  <PolyStepSegment x="78.90720" y="-91.238095"/>
-                  <PolyStepSegment x="78.811961" y="-91.190476"/>
-                  <PolyStepSegment x="78.764342" y="-91.190476"/>
-                  <PolyStepSegment x="78.669104" y="-91.238095"/>
-                  <PolyStepSegment x="78.621485" y="-91.333333"/>
-                  <PolyStepSegment x="78.621485" y="-91.476190"/>
-                  <PolyStepSegment x="78.573866" y="-91.571428"/>
-                  <PolyStepSegment x="78.478628" y="-91.619047"/>
-                  <PolyStepSegment x="78.431009" y="-91.619047"/>
+                  <PolyBegin x="77.954819" y="-91.857142"/>
+                  <PolyStepSegment x="77.954819" y="-91.238095"/>
                   <PolyStepSegment x="78.335771" y="-91.571428"/>
-                  <PolyStepSegment x="78.288152" y="-91.476190"/>
-                  <PolyStepSegment x="78.288152" y="-91.333333"/>
-                  <PolyStepSegment x="78.335771" y="-91.238095"/>
+                  <PolyStepSegment x="78.335771" y="-91.428571"/>
+                  <PolyStepSegment x="78.383390" y="-91.333333"/>
+                  <PolyStepSegment x="78.431009" y="-91.285714"/>
+                  <PolyStepSegment x="78.526247" y="-91.238095"/>
+                  <PolyStepSegment x="78.764342" y="-91.238095"/>
+                  <PolyStepSegment x="78.859580" y="-91.285714"/>
+                  <PolyStepSegment x="78.90720" y="-91.333333"/>
+                  <PolyStepSegment x="78.954819" y="-91.428571"/>
+                  <PolyStepSegment x="78.954819" y="-91.714285"/>
+                  <PolyStepSegment x="78.90720" y="-91.809523"/>
+                  <PolyStepSegment x="78.859580" y="-91.857142"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
-                  <PolyBegin x="78.90720" y="-90.380952"/>
-                  <PolyStepSegment x="78.954819" y="-90.476190"/>
-                  <PolyStepSegment x="78.954819" y="-90.666666"/>
-                  <PolyStepSegment x="78.90720" y="-90.761904"/>
-                  <PolyStepSegment x="78.811961" y="-90.809523"/>
-                  <PolyStepSegment x="78.431009" y="-90.809523"/>
-                  <PolyStepSegment x="78.335771" y="-90.761904"/>
-                  <PolyStepSegment x="78.288152" y="-90.666666"/>
-                  <PolyStepSegment x="78.288152" y="-90.476190"/>
-                  <PolyStepSegment x="78.335771" y="-90.380952"/>
+                  <PolyBegin x="77.954819" y="-90.333333"/>
+                  <PolyStepSegment x="77.954819" y="-90.809523"/>
+                  <PolyStepSegment x="78.431009" y="-90.857142"/>
+                  <PolyStepSegment x="78.383390" y="-90.809523"/>
+                  <PolyStepSegment x="78.335771" y="-90.714285"/>
+                  <PolyStepSegment x="78.335771" y="-90.476190"/>
+                  <PolyStepSegment x="78.383390" y="-90.380952"/>
                   <PolyStepSegment x="78.431009" y="-90.333333"/>
-                  <PolyStepSegment x="78.526247" y="-90.333333"/>
-                  <PolyStepSegment x="78.621485" y="-90.809523"/>
+                  <PolyStepSegment x="78.526247" y="-90.285714"/>
+                  <PolyStepSegment x="78.764342" y="-90.285714"/>
+                  <PolyStepSegment x="78.859580" y="-90.333333"/>
+                  <PolyStepSegment x="78.90720" y="-90.380952"/>
+                  <PolyStepSegment x="78.954819" y="-90.476190"/>
+                  <PolyStepSegment x="78.954819" y="-90.714285"/>
+                  <PolyStepSegment x="78.90720" y="-90.809523"/>
+                  <PolyStepSegment x="78.859580" y="-90.857142"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
-                  <PolyBegin x="78.90720" y="-89.190475"/>
-                  <PolyStepSegment x="78.954819" y="-89.047618"/>
-                  <PolyStepSegment x="78.954819" y="-88.809523"/>
-                  <PolyStepSegment x="78.90720" y="-88.714285"/>
-                  <PolyStepSegment x="78.859580" y="-88.666666"/>
-                  <PolyStepSegment x="78.764342" y="-88.619047"/>
-                  <PolyStepSegment x="78.669104" y="-88.619047"/>
-                  <PolyStepSegment x="78.573866" y="-88.666666"/>
-                  <PolyStepSegment x="78.526247" y="-88.714285"/>
-                  <PolyStepSegment x="78.478628" y="-88.809523"/>
-                  <PolyStepSegment x="78.431009" y="-88.999999"/>
-                  <PolyStepSegment x="78.383390" y="-89.095237"/>
-                  <PolyStepSegment x="78.335771" y="-89.142856"/>
-                  <PolyStepSegment x="78.240533" y="-89.190475"/>
-                  <PolyStepSegment x="78.145295" y="-89.190475"/>
-                  <PolyStepSegment x="78.050057" y="-89.142856"/>
-                  <PolyStepSegment x="78.002438" y="-89.095237"/>
-                  <PolyStepSegment x="77.954819" y="-88.999999"/>
-                  <PolyStepSegment x="77.954819" y="-88.761904"/>
-                  <PolyStepSegment x="78.002438" y="-88.619047"/>
+                  <PolyBegin x="77.954819" y="-89.380952"/>
+                  <PolyStepSegment x="77.954819" y="-89.857142"/>
+                  <PolyStepSegment x="78.431009" y="-89.904761"/>
+                  <PolyStepSegment x="78.383390" y="-89.857142"/>
+                  <PolyStepSegment x="78.335771" y="-89.761904"/>
+                  <PolyStepSegment x="78.335771" y="-89.523809"/>
+                  <PolyStepSegment x="78.383390" y="-89.428571"/>
+                  <PolyStepSegment x="78.431009" y="-89.380952"/>
+                  <PolyStepSegment x="78.526247" y="-89.333333"/>
+                  <PolyStepSegment x="78.764342" y="-89.333333"/>
+                  <PolyStepSegment x="78.859580" y="-89.380952"/>
+                  <PolyStepSegment x="78.90720" y="-89.428571"/>
+                  <PolyStepSegment x="78.954819" y="-89.523809"/>
+                  <PolyStepSegment x="78.954819" y="-89.761904"/>
+                  <PolyStepSegment x="78.90720" y="-89.857142"/>
+                  <PolyStepSegment x="78.859580" y="-89.904761"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
-                  <PolyBegin x="78.954819" y="-88.047618"/>
-                  <PolyStepSegment x="78.90720" y="-88.142856"/>
-                  <PolyStepSegment x="78.859580" y="-88.190475"/>
-                  <PolyStepSegment x="78.764342" y="-88.238094"/>
-                  <PolyStepSegment x="78.478628" y="-88.238094"/>
-                  <PolyStepSegment x="78.383390" y="-88.190475"/>
-                  <PolyStepSegment x="78.335771" y="-88.142856"/>
-                  <PolyStepSegment x="78.288152" y="-88.047618"/>
-                  <PolyStepSegment x="78.288152" y="-87.904761"/>
-                  <PolyStepSegment x="78.335771" y="-87.809523"/>
-                  <PolyStepSegment x="78.383390" y="-87.761904"/>
-                  <PolyStepSegment x="78.478628" y="-87.714285"/>
-                  <PolyStepSegment x="78.764342" y="-87.714285"/>
-                  <PolyStepSegment x="78.859580" y="-87.761904"/>
-                  <PolyStepSegment x="78.90720" y="-87.809523"/>
-                  <PolyStepSegment x="78.954819" y="-87.904761"/>
-                  <PolyStepSegment x="78.954819" y="-88.047618"/>
+                  <PolyBegin x="77.954819" y="-88.999999"/>
+                  <PolyStepSegment x="77.954819" y="-88.333333"/>
+                  <PolyStepSegment x="78.954819" y="-88.761904"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
-                <Polyline>
-                  <PolyBegin x="78.90720" y="-86.857142"/>
-                  <PolyStepSegment x="78.954819" y="-86.952380"/>
-                  <PolyStepSegment x="78.954819" y="-87.142856"/>
-                  <PolyStepSegment x="78.90720" y="-87.238094"/>
-                  <PolyStepSegment x="78.859580" y="-87.285713"/>
-                  <PolyStepSegment x="78.764342" y="-87.333332"/>
-                  <PolyStepSegment x="78.478628" y="-87.333332"/>
-                  <PolyStepSegment x="78.383390" y="-87.285713"/>
-                  <PolyStepSegment x="78.335771" y="-87.238094"/>
-                  <PolyStepSegment x="78.288152" y="-87.142856"/>
-                  <PolyStepSegment x="78.288152" y="-86.952380"/>
-                  <PolyStepSegment x="78.335771" y="-86.857142"/>
-                  <LineDescRef id="LINE_2"/>
-                </Polyline>
-                <Line startX="78.954819" startY="-86.428570" endX="77.954819" endY="-86.428570">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
-                <Line startX="78.573866" startY="-86.333332" endX="78.954819" endY="-86.047618">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
-                <Line startX="78.288152" startY="-86.047618" endX="78.669104" endY="-86.428570">
+                <Line startX="78.573866" startY="-87.952380" endX="78.573866" endY="-87.190476">
                   <LineDescRef id="LINE_2"/>
                 </Line>
                 <Polyline>
-                  <PolyBegin x="78.90720" y="-85.238094"/>
-                  <PolyStepSegment x="78.954819" y="-85.333332"/>
-                  <PolyStepSegment x="78.954819" y="-85.523808"/>
-                  <PolyStepSegment x="78.90720" y="-85.619046"/>
-                  <PolyStepSegment x="78.811961" y="-85.666665"/>
-                  <PolyStepSegment x="78.431009" y="-85.666665"/>
-                  <PolyStepSegment x="78.335771" y="-85.619046"/>
-                  <PolyStepSegment x="78.288152" y="-85.523808"/>
-                  <PolyStepSegment x="78.288152" y="-85.333332"/>
-                  <PolyStepSegment x="78.335771" y="-85.238094"/>
-                  <PolyStepSegment x="78.431009" y="-85.190475"/>
-                  <PolyStepSegment x="78.526247" y="-85.190475"/>
-                  <PolyStepSegment x="78.621485" y="-85.666665"/>
-                  <LineDescRef id="LINE_2"/>
-                </Polyline>
-                <Line startX="78.288152" startY="-84.904760" endX="78.288152" endY="-84.523808">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
-                <Polyline>
-                  <PolyBegin x="77.954819" y="-84.761903"/>
-                  <PolyStepSegment x="78.811961" y="-84.761903"/>
-                  <PolyStepSegment x="78.90720" y="-84.714284"/>
-                  <PolyStepSegment x="78.954819" y="-84.619046"/>
-                  <PolyStepSegment x="78.954819" y="-84.523808"/>
+                  <PolyBegin x="78.050057" y="-86.761904"/>
+                  <PolyStepSegment x="78.002438" y="-86.714285"/>
+                  <PolyStepSegment x="77.954819" y="-86.619047"/>
+                  <PolyStepSegment x="77.954819" y="-86.380952"/>
+                  <PolyStepSegment x="78.002438" y="-86.285714"/>
+                  <PolyStepSegment x="78.050057" y="-86.238095"/>
+                  <PolyStepSegment x="78.145295" y="-86.190476"/>
+                  <PolyStepSegment x="78.240533" y="-86.190476"/>
+                  <PolyStepSegment x="78.383390" y="-86.238095"/>
+                  <PolyStepSegment x="78.954819" y="-86.809523"/>
+                  <PolyStepSegment x="78.954819" y="-86.190476"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
               </UserSpecial>
@@ -7326,7 +7252,7 @@
             </Features>
           </Set>
           <Set geometryUsage="TEXT" componentRef="J1">
-            <NonstandardAttribute name="TEXT" value="MKDS 3-2 5.08" type="STRING"/>
+            <NonstandardAttribute name="TEXT" value="MKDS_3-2_5.08" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
@@ -7386,6 +7312,9 @@
                   <PolyStepSegment x="76.357142" y="-77.502438"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
+                <Line startX="76.547619" startY="-78.550057" endX="77.309523" endY="-78.550057">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
                 <Polyline>
                   <PolyBegin x="77.452381" y="-77.454819"/>
                   <PolyStepSegment x="78.071428" y="-77.454819"/>
@@ -7420,6 +7349,9 @@
                   <PolyStepSegment x="80.261904" y="-78.454819"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
+                <Line startX="80.452381" startY="-78.550057" endX="81.214285" endY="-78.550057">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
                 <Polyline>
                   <PolyBegin x="81.928571" y="-77.454819"/>
                   <PolyStepSegment x="81.452381" y="-77.454819"/>
@@ -7538,7 +7470,7 @@
               </UserSpecial>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.040" startY="-131.956959" endX="70.040" endY="-131.243040">
@@ -7546,7 +7478,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.040" startY="-131.956959" endX="70.302974" endY="-131.956959">
@@ -7554,7 +7486,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.302974" startY="-131.243040" endX="70.040" endY="-131.243040">
@@ -7562,7 +7494,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.302974" startY="-131.956959" endX="70.481309" endY="-131.8070">
@@ -7570,7 +7502,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.481309" startY="-131.3930" endX="70.302974" endY="-131.243040">
@@ -7578,7 +7510,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.481309" startY="-131.8070" endX="70.610" endY="-131.8070">
@@ -7586,7 +7518,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-122.568520" endX="70.610" endY="-122.30">
@@ -7594,7 +7526,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-123.366617" endX="70.610" endY="-122.568520">
@@ -7602,7 +7534,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-123.366617" endX="70.610" endY="-124.296508">
@@ -7610,7 +7542,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-123.366617" endX="85.850" endY="-123.366617">
@@ -7618,7 +7550,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-124.572747" endX="70.610" endY="-124.296508">
@@ -7626,7 +7558,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-124.872565" endX="70.610" endY="-124.572747">
@@ -7634,7 +7566,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-130.50" endX="70.610" endY="-124.872565">
@@ -7642,7 +7574,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-131.3930" endX="70.481309" endY="-131.3930">
@@ -7650,7 +7582,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-131.3930" endX="70.610" endY="-130.50">
@@ -7658,7 +7590,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-131.8070" endX="70.610" endY="-131.3930">
@@ -7666,7 +7598,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-133.20" endX="70.610" endY="-131.8070">
@@ -7674,7 +7606,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-133.50" endX="70.610" endY="-133.20">
@@ -7682,7 +7614,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="70.610" startY="-133.50" endX="85.850" endY="-133.50">
@@ -7690,7 +7622,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="72.076976" startY="-129.567998" endX="74.717998" endY="-126.926976">
@@ -7698,7 +7630,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="73.150" startY="-125.80" endX="73.150" endY="-130.20">
@@ -7706,7 +7638,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="74.223024" startY="-126.432001" endX="71.582001" endY="-129.073024">
@@ -7714,7 +7646,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="75.350" startY="-128.0" endX="70.950" endY="-128.0">
@@ -7722,7 +7654,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="77.156976" startY="-129.567998" endX="79.797998" endY="-126.926976">
@@ -7730,7 +7662,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="78.230" startY="-125.80" endX="78.230" endY="-130.20">
@@ -7738,7 +7670,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="79.303024" startY="-126.432001" endX="76.662001" endY="-129.073024">
@@ -7746,7 +7678,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="80.430" startY="-128.0" endX="76.030" endY="-128.0">
@@ -7754,7 +7686,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="82.236976" startY="-129.567998" endX="84.877998" endY="-126.926976">
@@ -7762,7 +7694,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="83.310" startY="-125.80" endX="83.310" endY="-130.20">
@@ -7770,7 +7702,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="84.383024" startY="-126.432001" endX="81.742001" endY="-129.073024">
@@ -7778,7 +7710,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.510" startY="-128.0" endX="81.110" endY="-128.0">
@@ -7786,7 +7718,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-122.30" endX="70.610" endY="-122.30">
@@ -7794,7 +7726,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-122.30" endX="85.850" endY="-122.568520">
@@ -7802,7 +7734,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-122.568520" endX="85.850" endY="-123.366617">
@@ -7810,7 +7742,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-124.296508" endX="85.850" endY="-123.366617">
@@ -7818,7 +7750,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-124.296508" endX="85.850" endY="-124.572747">
@@ -7826,7 +7758,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-124.572747" endX="70.610" endY="-124.572747">
@@ -7834,7 +7766,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-124.572747" endX="85.850" endY="-124.872565">
@@ -7842,7 +7774,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-124.872565" endX="85.850" endY="-130.50">
@@ -7850,7 +7782,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-130.50" endX="70.610" endY="-130.50">
@@ -7858,7 +7790,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-130.50" endX="85.850" endY="-133.20">
@@ -7866,7 +7798,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Line startX="85.850" startY="-133.20" endX="85.850" endY="-133.50">
@@ -7874,7 +7806,7 @@
               </Line>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="71.582001" startY="-129.073024" endX="74.223024" endY="-126.432001" centerX="73.150" centerY="-128.0" clockwise="true">
@@ -7882,7 +7814,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="72.076976" startY="-129.567998" endX="71.582001" endY="-129.073024" centerX="73.149989" centerY="-128.000007" clockwise="true">
@@ -7890,7 +7822,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="74.223024" startY="-126.432001" endX="74.717998" endY="-126.926976" centerX="73.150007" centerY="-127.999989" clockwise="true">
@@ -7898,7 +7830,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="74.717998" startY="-126.926976" endX="72.076976" endY="-129.567998" centerX="73.150001" centerY="-128.000001" clockwise="true">
@@ -7906,7 +7838,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="76.662001" startY="-129.073024" endX="79.303024" endY="-126.432001" centerX="78.230" centerY="-128.0" clockwise="true">
@@ -7914,7 +7846,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="77.156976" startY="-129.567998" endX="76.662001" endY="-129.073024" centerX="78.229989" centerY="-128.000007" clockwise="true">
@@ -7922,7 +7854,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="79.303024" startY="-126.432001" endX="79.797998" endY="-126.926976" centerX="78.230007" centerY="-127.999989" clockwise="true">
@@ -7930,7 +7862,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="79.797998" startY="-126.926976" endX="77.156976" endY="-129.567998" centerX="78.230001" centerY="-128.000001" clockwise="true">
@@ -7938,7 +7870,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="81.742001" startY="-129.073024" endX="84.383024" endY="-126.432001" centerX="83.310" centerY="-128.0" clockwise="true">
@@ -7946,7 +7878,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="82.236976" startY="-129.567998" endX="81.742001" endY="-129.073024" centerX="83.310" centerY="-128.0" clockwise="true">
@@ -7954,7 +7886,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="84.383024" startY="-126.432001" endX="84.877998" endY="-126.926976" centerX="83.310" centerY="-128.0" clockwise="true">
@@ -7962,7 +7894,7 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Arc startX="84.877998" startY="-126.926976" endX="82.236976" endY="-129.567998" centerX="83.310" centerY="-128.0" clockwise="true">
@@ -7970,38 +7902,38 @@
               </Arc>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="73.150" y="-128.0"/>
               <UserPrimitiveRef id="UCIRCLE_8"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="75.690" y="-126.30"/>
               <UserPrimitiveRef id="UCIRCLE_9"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="78.230" y="-128.0"/>
               <UserPrimitiveRef id="UCIRCLE_10"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="80.770" y="-126.30"/>
               <UserPrimitiveRef id="UCIRCLE_11"/>
             </Features>
           </Set>
-          <Set geometryUsage="GRAPHIC" componentRef="J3">
+          <Set geometryUsage="GRAPHIC" componentRef="J2">
             <Features>
               <Location x="83.310" y="-128.0"/>
               <UserPrimitiveRef id="UCIRCLE_12"/>
             </Features>
           </Set>
-          <Set geometryUsage="TEXT" componentRef="J3">
-            <NonstandardAttribute name="TEXT" value="MKDS 3-3 5.08" type="STRING"/>
+          <Set geometryUsage="TEXT" componentRef="J2">
+            <NonstandardAttribute name="TEXT" value="MKDS_3-3_5.08" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
@@ -8061,6 +7993,9 @@
                   <PolyStepSegment x="76.107142" y="-131.502438"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
+                <Line startX="76.297619" startY="-132.550057" endX="77.059523" endY="-132.550057">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
                 <Polyline>
                   <PolyBegin x="77.202381" y="-131.454819"/>
                   <PolyStepSegment x="77.821428" y="-131.454819"/>
@@ -8098,6 +8033,9 @@
                   <PolyStepSegment x="79.392857" y="-132.359580"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
+                <Line startX="80.202381" startY="-132.550057" endX="80.964285" endY="-132.550057">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
                 <Polyline>
                   <PolyBegin x="81.678571" y="-131.454819"/>
                   <PolyStepSegment x="81.202381" y="-131.454819"/>
@@ -8188,8 +8126,8 @@
               </UserSpecial>
             </Features>
           </Set>
-          <Set geometryUsage="TEXT" componentRef="J3">
-            <NonstandardAttribute name="TEXT" value="J3" type="STRING"/>
+          <Set geometryUsage="TEXT" componentRef="J2">
+            <NonstandardAttribute name="TEXT" value="J2" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
@@ -8203,20 +8141,17 @@
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
-                  <PolyBegin x="71.547619" y="-120.954819"/>
-                  <PolyStepSegment x="72.166666" y="-120.954819"/>
-                  <PolyStepSegment x="71.833333" y="-121.335771"/>
-                  <PolyStepSegment x="71.976190" y="-121.335771"/>
-                  <PolyStepSegment x="72.071428" y="-121.383390"/>
-                  <PolyStepSegment x="72.119047" y="-121.431009"/>
-                  <PolyStepSegment x="72.166666" y="-121.526247"/>
-                  <PolyStepSegment x="72.166666" y="-121.764342"/>
-                  <PolyStepSegment x="72.119047" y="-121.859580"/>
-                  <PolyStepSegment x="72.071428" y="-121.90720"/>
-                  <PolyStepSegment x="71.976190" y="-121.954819"/>
-                  <PolyStepSegment x="71.690476" y="-121.954819"/>
-                  <PolyStepSegment x="71.595238" y="-121.90720"/>
-                  <PolyStepSegment x="71.547619" y="-121.859580"/>
+                  <PolyBegin x="71.595238" y="-121.050057"/>
+                  <PolyStepSegment x="71.642857" y="-121.002438"/>
+                  <PolyStepSegment x="71.738095" y="-120.954819"/>
+                  <PolyStepSegment x="71.976190" y="-120.954819"/>
+                  <PolyStepSegment x="72.071428" y="-121.002438"/>
+                  <PolyStepSegment x="72.119047" y="-121.050057"/>
+                  <PolyStepSegment x="72.166666" y="-121.145295"/>
+                  <PolyStepSegment x="72.166666" y="-121.240533"/>
+                  <PolyStepSegment x="72.119047" y="-121.383390"/>
+                  <PolyStepSegment x="71.547619" y="-121.954819"/>
+                  <PolyStepSegment x="72.166666" y="-121.954819"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
               </UserSpecial>
@@ -8224,34 +8159,34 @@
           </Set>
         </LayerFeature>
         <LayerFeature layerRef="F.Cu_B.Cu">
-          <Set geometry="PADSTACK_1" net="Net-(J3-Pin_1)">
+          <Set geometry="PADSTACK_1" net="Net-(J2-Pin_1)">
             <Hole name="H1" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="75.390" y="-106.30"/>
           </Set>
           <Set geometry="PADSTACK_1" net="+24V_sicher">
             <Hole name="H2" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="75.390" y="-110.90"/>
           </Set>
-          <Set geometry="PADSTACK_1" net="Net-(J3-Pin_3)">
+          <Set geometry="PADSTACK_1" net="Net-(J2-Pin_3)">
             <Hole name="H3" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="75.390" y="-115.50"/>
           </Set>
-          <Set geometry="PADSTACK_1" net="Net-(J3-Pin_3)">
+          <Set geometry="PADSTACK_1" net="Net-(J2-Pin_3)">
             <Hole name="H4" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="81.110" y="-115.50"/>
           </Set>
           <Set geometry="PADSTACK_1" net="+24V_sicher">
             <Hole name="H5" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="81.110" y="-110.90"/>
           </Set>
-          <Set geometry="PADSTACK_1" net="Net-(J3-Pin_1)">
+          <Set geometry="PADSTACK_1" net="Net-(J2-Pin_1)">
             <Hole name="H6" diameter="1.650" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="81.110" y="-106.30"/>
           </Set>
-          <Set geometry="PADSTACK_2" net="+24V_sicher">
+          <Set geometry="PADSTACK_2" net="+24V">
             <Hole name="H7" diameter="1.60" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="76.550" y="-95.7350"/>
           </Set>
-          <Set geometry="PADSTACK_2" net="+24V_sicher">
+          <Set geometry="PADSTACK_2" net="+24V">
             <Hole name="H8" diameter="1.60" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="79.950" y="-95.7350"/>
           </Set>
-          <Set geometry="PADSTACK_2" net="+24V">
+          <Set geometry="PADSTACK_2" net="+24V_sicher">
             <Hole name="H9" diameter="1.60" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="76.550" y="-82.2650"/>
           </Set>
-          <Set geometry="PADSTACK_2" net="+24V">
+          <Set geometry="PADSTACK_2" net="+24V_sicher">
             <Hole name="H10" diameter="1.60" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="79.950" y="-82.2650"/>
           </Set>
           <Set geometry="PADSTACK_3" net="GND">
@@ -8260,13 +8195,13 @@
           <Set geometry="PADSTACK_3" net="+24V">
             <Hole name="H12" diameter="1.30" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="75.710" y="-71.50"/>
           </Set>
-          <Set geometry="PADSTACK_4" net="Net-(J3-Pin_1)">
+          <Set geometry="PADSTACK_4" net="Net-(J2-Pin_1)">
             <Hole name="H13" diameter="1.30" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="73.170" y="-128.0"/>
           </Set>
           <Set geometry="PADSTACK_5" net="GND">
             <Hole name="H14" diameter="1.30" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="78.250" y="-128.0"/>
           </Set>
-          <Set geometry="PADSTACK_5" net="Net-(J3-Pin_3)">
+          <Set geometry="PADSTACK_5" net="Net-(J2-Pin_3)">
             <Hole name="H15" diameter="1.30" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="83.330" y="-128.0"/>
           </Set>
         </LayerFeature>
@@ -8274,10 +8209,10 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T20:47:13" version="1"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T21:28:50" version="1"/>
     <AvlItem OEMDesignNumber="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_Fuse Socket"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_2_508_MKDS 3-2 5.08"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_3_508_MKDS 3-3 5.08"/>
+    <AvlItem OEMDesignNumber="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2"/>
+    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08"/>
+    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08"/>
   </Avl>
 </IPC-2581>
