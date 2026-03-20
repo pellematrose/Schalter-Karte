@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.7-9.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-03-20T14:37:20+01:00"
+    "CreationDate": "2026-03-20T20:47:13+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Schalter-Karte_HW",
       "GUID": "53636861-6c74-4657-922d-4b617274655f",
-      "Revision": "rev?"
+      "Revision": "V1.0"
     },
     "Size": {
       "X": 17.6,

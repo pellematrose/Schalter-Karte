@@ -1,5 +1,5 @@
 ** Drc report for Schalter-Karte_HW.kicad_pcb **
-** Created on 2026-03-20T14:37:19+0100 **
+** Created on 2026-03-20T20:47:12+0100 **
 
 ** Found 1 DRC violations **
 [items_not_allowed]: Nicht erlaubte Elemente (Sperrbereich "keepout")
@@ -13,19 +13,19 @@
     @(81,1100 mm, 110,9000 mm): Durchsteckpad 5 [+24V_sicher] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(76,5500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
+    @(79,9500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
     @(75,3900 mm, 110,9000 mm): Durchsteckpad 2 [+24V_sicher] von SW1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(79,9500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
-    @(76,5500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
+    @(79,9500 mm, 95,7350 mm): Durchsteckpad 1 [+24V_sicher] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(75,7100 mm, 71,5000 mm): Durchsteckpad 2 [+24V] von J1
-    @(76,5500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
+    @(79,9500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(76,5500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
+    @(79,9500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
     @(79,9500 mm, 82,2650 mm): Durchsteckpad 2 [+24V] von F1
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
