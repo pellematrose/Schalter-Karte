@@ -92,7 +92,7 @@
 	(net 3 "GND")
 	(net 4 "Net-(J2-Pin_3)")
 	(net 5 "Net-(J2-Pin_1)")
-	(footprint "_PS_LIB_MECH:L10101_Schiebeschalter"
+	(footprint "Footprints:L10101_Schiebeschalter"
 		(layer "F.Cu")
 		(uuid "03625a4d-101c-4919-a8db-715d21d14d14")
 		(at 78.25 110.9 90)
@@ -3109,7 +3109,7 @@
 				(checksum "2CA643DCBD2442DE3A18F19E60821BDA")
 			)
 		)
-		(model "kicad-embed://L101011MS02Q_schiebeschalter.stp"
+		(model "${KIPRJMOD}/3dmodels/L101011MS02Q_schiebeschalter.stp"
 			(offset
 				(xyz 0 0 1.5)
 			)
@@ -3121,7 +3121,7 @@
 			)
 		)
 	)
-	(footprint "_PS_LIB_CON:Fuse Holder Littelfuse ATOF 287"
+	(footprint "Footprints:Fuse Holder Littelfuse ATOF 287"
 		(layer "F.Cu")
 		(uuid "595fba8d-95f0-4183-be59-089330aa823f")
 		(at 78.25 89 90)
@@ -3349,7 +3349,7 @@
 				(checksum "8F9DE03F1F544D3774D8C05511BB2751")
 			)
 		)
-		(model "kicad-embed://3557-2.step"
+		(model "${KIPRJMOD}/3dmodels/3557-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3361,7 +3361,7 @@
 			)
 		)
 	)
-	(footprint "_PS_LIB_CON:MKDS_3_2_508"
+	(footprint "Footprints:MKDS_3_2_508"
 		(layer "F.Cu")
 		(uuid "6ad8d698-c011-41fa-81bc-b7f61f3ee547")
 		(at 78.25 71.5 180)
@@ -4871,7 +4871,7 @@
 				(checksum "01D745B1592146409FA52EDF146631E5")
 			)
 		)
-		(model "kicad-embed://1711725_06_00_MKDS-3-2-5-08_3D.stp"
+		(model "${KIPRJMOD}/3dmodels/1711725_06_00_MKDS-3-2-5-08_3D.stp"
 			(offset
 				(xyz -5.1 -5.3 0)
 			)
@@ -4883,7 +4883,7 @@
 			)
 		)
 	)
-	(footprint "_PS_LIB_CON:MKDS_3_3_508"
+	(footprint "Footprints:MKDS_3_3_508"
 		(layer "F.Cu")
 		(uuid "f8d4e6ec-6106-4e6f-bb53-1677b1f0dadc")
 		(at 78.25 128)
@@ -6530,7 +6530,7 @@
 				(checksum "7C816160C7E9E71CEFF75643C3F1110B")
 			)
 		)
-		(model "kicad-embed://1711738_06_01_MKDS-3-3-5-08_3D.stp"
+		(model "${KIPRJMOD}/3dmodels/1711738_06_01_MKDS-3-3-5-08_3D.stp"
 			(offset
 				(xyz -7.65 -5.3 0)
 			)

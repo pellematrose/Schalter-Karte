@@ -1,5 +1,5 @@
 ** Drc report for Schalter-Karte_HW.kicad_pcb **
-** Created on 2026-03-20T21:28:49+0100 **
+** Created on 2026-03-20T22:24:45+0100 **
 
 ** Found 1 DRC violations **
 [items_not_allowed]: Nicht erlaubte Elemente (Sperrbereich "keepout")

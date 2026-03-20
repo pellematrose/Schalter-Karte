@@ -208,7 +208,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-20T21:28:50" software="KiCad EDA" lastChange="2026-03-20T21:28:50">
+  <HistoryRecord number="1" origination="2026-03-20T22:24:46" software="KiCad EDA" lastChange="2026-03-20T22:24:46">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.7" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -219,13 +219,20 @@
     <BomHeader revision="1.0" assembly="Schalter-Karte_HW_2">
       <StepRef name="Schalter-Karte_HW"/>
     </BomHeader>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2" quantity="1" pinCount="4" category="ELECTRICAL">
+    <BomItem OEMDesignNumberRef="Footprints_Fuse Holder Littelfuse ATOF 287_3557-2" quantity="1" pinCount="4" category="ELECTRICAL">
       <RefDes name="F1" packageRef="Fuse Holder Littelfuse ATOF 287" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
         <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="3557-2"/>
       </Characteristics>
     </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08" quantity="1" pinCount="2" category="ELECTRICAL">
+    <BomItem OEMDesignNumberRef="Footprints_L10101_Schiebeschalter_L101011MS02Q" quantity="1" pinCount="6" category="ELECTRICAL">
+      <RefDes name="SW1" packageRef="L10101_Schiebeschalter" populate="true" layerRef="F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="CKC5106-ND"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="L101011MS02Q"/>
+      </Characteristics>
+    </BomItem>
+    <BomItem OEMDesignNumberRef="Footprints_MKDS_3_2_508_MKDS_3-2_5.08" quantity="1" pinCount="2" category="ELECTRICAL">
       <RefDes name="J1" packageRef="MKDS_3_2_508" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
         <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="277-1027-ND"/>
@@ -234,18 +241,11 @@
         <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS_3-2_5.08"/>
       </Characteristics>
     </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08" quantity="1" pinCount="3" category="ELECTRICAL">
+    <BomItem OEMDesignNumberRef="Footprints_MKDS_3_3_508_MKDS_3-3_5.08" quantity="1" pinCount="3" category="ELECTRICAL">
       <RefDes name="J2" packageRef="MKDS_3_3_508" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
         <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="277-1028-ND"/>
         <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS_3-3_5.08"/>
-      </Characteristics>
-    </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q" quantity="1" pinCount="6" category="ELECTRICAL">
-      <RefDes name="SW1" packageRef="L10101_Schiebeschalter" populate="true" layerRef="F.Cu"/>
-      <Characteristics category="ELECTRICAL">
-        <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="CKC5106-ND"/>
-        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="L101011MS02Q"/>
       </Characteristics>
     </BomItem>
   </Bom>
@@ -1747,19 +1747,19 @@
             <StandardPrimitiveRef id="CIRCLE_5"/>
           </Pin>
         </Package>
-        <Component refDes="SW1" packageRef="L10101_Schiebeschalter_1" part="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="SW1" packageRef="L10101_Schiebeschalter_1" part="Footprints_L10101_Schiebeschalter_L101011MS02Q" layerRef="F.Cu" mountType="THMT">
           <Xform rotation="90.0"/>
           <Location x="78.250" y="-110.90"/>
         </Component>
-        <Component refDes="F1" packageRef="Fuse Holder Littelfuse ATOF 287_2" part="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="F1" packageRef="Fuse Holder Littelfuse ATOF 287_2" part="Footprints_Fuse Holder Littelfuse ATOF 287_3557-2" layerRef="F.Cu" mountType="THMT">
           <Xform rotation="90.0"/>
           <Location x="78.250" y="-89.0"/>
         </Component>
-        <Component refDes="J1" packageRef="MKDS_3_2_508_3" part="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08" layerRef="F.Cu" mountType="SMT">
+        <Component refDes="J1" packageRef="MKDS_3_2_508_3" part="Footprints_MKDS_3_2_508_MKDS_3-2_5.08" layerRef="F.Cu" mountType="SMT">
           <Xform rotation="180.0"/>
           <Location x="78.250" y="-71.50"/>
         </Component>
-        <Component refDes="J2" packageRef="MKDS_3_3_508_4" part="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="J2" packageRef="MKDS_3_3_508_4" part="Footprints_MKDS_3_3_508_MKDS_3-3_5.08" layerRef="F.Cu" mountType="THMT">
           <Location x="78.250" y="-128.0"/>
         </Component>
         <LayerFeature layerRef="F.Cu">
@@ -8209,10 +8209,10 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T21:28:50" version="1"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_3_508_MKDS_3-3_5.08"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T22:24:46" version="1"/>
+    <AvlItem OEMDesignNumber="Footprints_L10101_Schiebeschalter_L101011MS02Q"/>
+    <AvlItem OEMDesignNumber="Footprints_Fuse Holder Littelfuse ATOF 287_3557-2"/>
+    <AvlItem OEMDesignNumber="Footprints_MKDS_3_2_508_MKDS_3-2_5.08"/>
+    <AvlItem OEMDesignNumber="Footprints_MKDS_3_3_508_MKDS_3-3_5.08"/>
   </Avl>
 </IPC-2581>
