@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7-9.0.7~ubuntu24.04.1*%
-%TF.CreationDate,2026-03-20T22:24:45+01:00*%
+%TF.CreationDate,2026-03-20T22:31:15+01:00*%
 %TF.ProjectId,Schalter-Karte_HW,53636861-6c74-4657-922d-4b617274655f,V1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7-9.0.7~ubuntu24.04.1) date 2026-03-20 22:24:45*
+G04 Created by KiCad (PCBNEW 9.0.7-9.0.7~ubuntu24.04.1) date 2026-03-20 22:31:15*
 %MOMM*%
 %LPD*%
 G01*
@@ -27,10 +27,10 @@ X81110000Y-106300000D03*
 %TD*%
 D11*
 %TO.C,F1*%
-X76550000Y-95735000D03*
-X79950000Y-95735000D03*
-X76550000Y-82265000D03*
 X79950000Y-82265000D03*
+X76550000Y-82265000D03*
+X79950000Y-95735000D03*
+X76550000Y-95735000D03*
 %TD*%
 D12*
 %TO.C,J1*%
