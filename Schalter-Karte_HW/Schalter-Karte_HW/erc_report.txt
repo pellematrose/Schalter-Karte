@@ -1,4 +1,4 @@
-ERC-Bericht (2026-03-21T21:42:49+0100, UTF8-kodiert)
+ERC-Bericht (2026-03-22T18:01:04+0100, UTF8-kodiert)
 Protokoll enthält: Fehler, Warnungen
 
 ***** Schaltplan /
@@ -7,12 +7,9 @@ Protokoll enthält: Fehler, Warnungen
     @(111,76 mm, 67,31 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
 [power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
     ; error
-    @(105,41 mm, 91,44 mm): Symbol #PWR01 Pin 1 [Stromversorgung, Linie]
-[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
-    ; error
     @(127,00 mm, 67,31 mm): Symbol #PWR011 Pin 1 [Stromversorgung, Linie]
 [lib_symbol_mismatch]: Symbol "_PCB" stimmt nicht mit Kopie in Bibliothek "_PS_LIB" überein
     ; warning
-    @(177,80 mm, 163,83 mm): Symbol PCB1 [_PCB]
+    @(149,86 mm, 162,56 mm): Symbol PCB1 [_PCB]
 
- ** ERC-Meldungen: 4  Fehler 3  Warnungen 1
+ ** ERC-Meldungen: 3  Fehler 2  Warnungen 1

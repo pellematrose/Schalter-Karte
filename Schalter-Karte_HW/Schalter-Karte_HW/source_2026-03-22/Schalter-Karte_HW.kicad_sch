@@ -1,0 +1,1949 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87")
+	(paper "A4")
+	(title_block
+		(title "Schalter-Karte")
+		(date "2026-03-20")
+		(rev "V1.0")
+		(company "hand-crafted-electronics")
+		(comment 1 "https://ohwr.org/cern_ohl_s_v2.txt ")
+		(comment 2 "/pellematrose/Schalter-Karte")
+		(comment 3 "Licensed under CERN-OHL-S v2")
+		(comment 4 "© 2026 Per-Simon Saal")
+	)
+	(lib_symbols
+		(symbol "Symbols:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:Fuseholder ATOF 287"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3557-2"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_PS_LIB_CON:Fuse Holder Littelfuse ATOF 287"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "36-3557-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuseholder ATOF 287_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuseholder ATOF 287_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:MKDS_3-2_5.08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MKDS_3-2_5.08"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_PS_LIB_CON:MKDS_3_2_508"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product-download.phoenixcontact.com/2848324?response-content-disposition=inline;%20filename%3D%221711725_04_de_00.pdf%22&Expires=1774048874&Signature=iFyT5B3-womW6lKjp5XGzWeua--BUis2SV37lsN3fOwrxLgEMLrA23TCmt7nlwi7ykr87Ps5xEHVs57OHbg5HRkkk59gv3io6WeBmuQRAZV6weoNLPtYcPQeNLn5aF1XU7IeUHNLEPTX941vJscEzGtP~Ohp3b7MZL1cCDfW5h5gjoo-aowUyONotC1zxuNCCh7kpnCXrhsvQVzKOYEZP~kIA8L3KVBHTrZZ6dlP381ao0AsK~O514~kd4FiCUoDK9G-yYP6HXF56mm67ftfuCnE63yGKMlMc9a1CFPGwdcLvfi1mXo0DWzryEcO6ogvtp8cLC18eKrYcvQZf0Ukdg__&Key-Pair-Id=K1I2N54A7B0GD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Leiterplattenklemme, Wellenlötung, Schrauban- schluss mit Zughülse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "277-1027-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MKDS_3-2_5.08_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:SW_Slide_DPDT_L101011MS02Q"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L101011MS02Q"
+				(at 0 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_PS_LIB_MECH:L10101_Schiebeschalter"
+				(at 13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1423/l.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "CKC5106-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_DPDT_L101011MS02Q_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_L101011MS02Q_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_L101011MS02Q_1_1"
+				(rectangle
+					(start -1.397 5.588)
+					(end -0.762 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 5.588)
+					(end 1.397 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_PS_LIB:_PCB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 1.778 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "_PS_LIB_PCB:_PCB"
+				(at 9.144 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "_PCB_0_1"
+				(rectangle
+					(start 0 3.302)
+					(end 23.368 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "_PCB_1_1"
+				(text "${TITLE}"
+					(at 0.254 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_PS_LIB:_Repository"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "Repo"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "_PS_LIB_PCB:_Repository"
+				(at 9.144 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "_Repository_0_1"
+				(rectangle
+					(start 0 3.302)
+					(end 12.954 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "_Repository_1_1"
+				(text "REPOSITORY\n"
+					(at 0.254 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "SPST: L101011MS02Q\nSPDT: L102011MS02Q"
+		(exclude_from_sim no)
+		(at 152.4 81.28 0)
+		(size 24.13 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d8dfc743-c545-4a00-95e7-cb802170258e")
+	)
+	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40689b51-81d3-4dbe-8e5d-262515ffea5c")
+	)
+	(junction
+		(at 130.81 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59c199b-a54a-47a1-892c-a4ae49866577")
+	)
+	(junction
+		(at 111.76 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef3e9c6-5951-483c-8c2d-e7c0c1b81aec")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 119.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f12131-f0fe-4c07-a785-6bfeaabaf4b4")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c23a866-962e-4065-bc01-87739e0af4dc")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7d0aa3-2ef1-4be2-a241-bc9f9f4a78d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382ae780-edc7-4245-b6e9-376819fa6702")
+	)
+	(wire
+		(pts
+			(xy 105.41 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43973cf2-1982-4826-8d68-0da507c941c2")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496cde2d-c8eb-4435-a060-0dd9354c3a53")
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2055de-6754-4c1f-8b7e-b6f94c41e4f9")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f608c38-5752-4f9f-935f-0693cb67bb0e")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcf07c8-b2cf-4480-a004-1ac2531ad5ce")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78da4473-3c03-4a39-9d95-729d7bf7c9ac")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba1f2a2-a9e2-40f3-baee-e672721c71e0")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85863d0b-ec4e-428b-8e71-a4ba61df811b")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91def37e-b52c-436c-be11-0f4b5668dae6")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b706898-c15f-46a3-b311-819c5bb75913")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1117a0-a991-447e-bbf2-dc8d9c85521d")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c5158c-b048-4366-985b-92ae6dfe6c93")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2dcc525-15e7-47f1-a663-dd30f41079ed")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5aa3b47-29b7-4a61-a033-93a109d83387")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb174387-a68f-42e1-84fe-d01e3abce8c9")
+	)
+	(symbol
+		(lib_id "Symbols:+24V")
+		(at 127 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00afee6c-cce1-4a0a-918d-e1a21be6f6d0")
+		(property "Reference" "#PWR011"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_sicher"
+			(at 130.81 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0f7df7-c51a-46fd-9a5e-5611b47b1671")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PS_LIB:_Repository")
+		(at 179.07 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c79c301-bca1-45f5-9eca-8f511d1596d1")
+		(property "Reference" "Repo1"
+			(at 185.547 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_PS_LIB_PCB:_Repository"
+			(at 188.214 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "Repo1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:Fuseholder ATOF 287")
+		(at 123.19 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a787869-4802-4f14-b7a6-0699002ac823")
+		(property "Reference" "F1"
+			(at 123.19 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3557-2"
+			(at 123.19 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_PS_LIB_CON:Fuse Holder Littelfuse ATOF 287"
+			(at 123.19 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-3557-2-ND"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0b57d33-889e-4212-856c-6fb51bb55678")
+		)
+		(pin "1"
+			(uuid "6cba7c44-0b79-48fa-9c6a-59942b5bac37")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PS_LIB:_PCB")
+		(at 149.86 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "235e4330-7351-443e-a655-499104d8ffb5")
+		(property "Reference" "PCB1"
+			(at 151.892 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 169.164 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_PS_LIB_PCB:_PCB"
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:SW_Slide_DPDT_L101011MS02Q")
+		(at 139.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fcf67bd-565a-4a5a-9627-8ecd9d5c0208")
+		(property "Reference" "SW1"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L101011MS02Q"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_PS_LIB_MECH:L10101_Schiebeschalter"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1423/l.pdf"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch, dual pole double throw"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CKC5106-ND"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fffedcb3-f763-4a5b-a0fc-477b82c4172c")
+		)
+		(pin "5"
+			(uuid "9fd7974b-c652-42c9-883c-5fa54608bcc3")
+		)
+		(pin "2"
+			(uuid "84a3bba3-6308-417f-a79a-2450501599bc")
+		)
+		(pin "6"
+			(uuid "b1bbb2ce-269a-47e7-83f7-b7c95eb2a5a3")
+		)
+		(pin "4"
+			(uuid "f278d473-c9ee-4d26-9e76-036395ee4452")
+		)
+		(pin "1"
+			(uuid "9ee5edbc-041f-4fa6-8d8c-b81e0f10b885")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:+24V")
+		(at 156.21 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a5c27f-974b-4bc5-97a8-7cafdfde28ca")
+		(property "Reference" "#PWR015"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_sicher"
+			(at 160.02 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3dc94bb-4bd1-42d2-8b64-9380744be0ea")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:+24V")
+		(at 111.76 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfb227d-24ad-4fe8-9c0b-5d93b393840c")
+		(property "Reference" "#PWR010"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74504062-b71e-4986-8190-a6a4d97adb8a")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:MKDS_3-2_5.08")
+		(at 100.33 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d394f540-1b60-4ccd-b206-4c3fe8573c6d")
+		(property "Reference" "J1"
+			(at 100.965 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDS_3-2_5.08"
+			(at 100.965 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_PS_LIB_CON:MKDS_3_2_508"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product-download.phoenixcontact.com/2848324?response-content-disposition=inline;%20filename%3D%221711725_04_de_00.pdf%22&Expires=1774048874&Signature=iFyT5B3-womW6lKjp5XGzWeua--BUis2SV37lsN3fOwrxLgEMLrA23TCmt7nlwi7ykr87Ps5xEHVs57OHbg5HRkkk59gv3io6WeBmuQRAZV6weoNLPtYcPQeNLn5aF1XU7IeUHNLEPTX941vJscEzGtP~Ohp3b7MZL1cCDfW5h5gjoo-aowUyONotC1zxuNCCh7kpnCXrhsvQVzKOYEZP~kIA8L3KVBHTrZZ6dlP381ao0AsK~O514~kd4FiCUoDK9G-yYP6HXF56mm67ftfuCnE63yGKMlMc9a1CFPGwdcLvfi1mXo0DWzryEcO6ogvtp8cLC18eKrYcvQZf0Ukdg__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leiterplattenklemme, Wellenlötung, Schrauban- schluss mit Zughülse"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "277-1027-ND"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8b1ca5b-216c-44ec-b905-432c1f6f856f")
+		)
+		(pin "1"
+			(uuid "b2994c16-8a90-49f1-bb49-af7cb0c1e75b")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:MKDS_3-2_5.08")
+		(at 100.33 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0050c40-058e-4afd-99c7-4949d1187c1a")
+		(property "Reference" "J2"
+			(at 100.965 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDS_3-2_5.08"
+			(at 100.965 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_PS_LIB_CON:MKDS_3_2_508"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product-download.phoenixcontact.com/2848324?response-content-disposition=inline;%20filename%3D%221711725_04_de_00.pdf%22&Expires=1774048874&Signature=iFyT5B3-womW6lKjp5XGzWeua--BUis2SV37lsN3fOwrxLgEMLrA23TCmt7nlwi7ykr87Ps5xEHVs57OHbg5HRkkk59gv3io6WeBmuQRAZV6weoNLPtYcPQeNLn5aF1XU7IeUHNLEPTX941vJscEzGtP~Ohp3b7MZL1cCDfW5h5gjoo-aowUyONotC1zxuNCCh7kpnCXrhsvQVzKOYEZP~kIA8L3KVBHTrZZ6dlP381ao0AsK~O514~kd4FiCUoDK9G-yYP6HXF56mm67ftfuCnE63yGKMlMc9a1CFPGwdcLvfi1mXo0DWzryEcO6ogvtp8cLC18eKrYcvQZf0Ukdg__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leiterplattenklemme, Wellenlötung, Schrauban- schluss mit Zughülse"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "277-1027-ND"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c5c72d7-3709-45fc-949a-0b8b868275f9")
+		)
+		(pin "1"
+			(uuid "20cf1335-f525-481f-8ab2-85d08188243f")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:+24V")
+		(at 134.62 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d59e6e-b022-4bb1-a9bb-41f7ddc8ce21")
+		(property "Reference" "#PWR020"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_sicher"
+			(at 130.81 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab16487c-c8d0-4fb3-b91e-cdfe4bf22152")
+		)
+		(instances
+			(project "Schalter-Karte_HW"
+				(path "/03b3dc3b-ad7c-4a56-b9ce-c1747ddd7d87"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Worksheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCYG60fAFZlcR/w2jxACOI+F9hakCzKQeugdl0jRQiZbvtQDotDK74SbgBjAGQAmfN8iR7e
+				5853gvfgSsIFD5s623twNnH/XHbi3kUhLWuh3DFxHoRLBuqwn+g/mgpvWslAoT/c0rpf4S8AAIET
+				6nHX8Ao4gsy99sGc0knwMvedjDccKgACBszdZez4Nk7rMk4VAIGOpOJ8Oh6NVAgWW+TX0WbuClpr
+				R0rpnO1S0hgz/g17HgukfYcaSUDgNw4Eo3wdd/oVviRc4IL3K/zZ5443Z8zd1kmzaa201j3L2mO8
+				1mLW2kpznn1llkXa0CEWHW8aJOGmEO5sv45Ufjac8RYZfzbU++BOg7yI+ZS1mjgPzFCi10IIRKI7
+				/Yv63eu047zdFMMurLVtrfc5vVJiF1qP00YbX88q38UmxGSM3VBiPg+fXfZ9+DvP5Sx2O6X+WKvu
+				/fCaVeIoCd+4EKvEnWx7wy8jAUPdNqwTx4h+J5000gqpYJ6FTrsOEK+BxC6KBseBsVge00omD8sj
+				46h0fNWdyvti+3RALo9Lw5bxInFEJKTSZXxpJApKZMJwEa7Tx1hk8Xkxquu0B+Ia9jXFYApXKKRu
+				cem1C42PQiu9BoEMoPFkaWokSVEK7QZxFSHMWGfjBsVZj93m0Hbg1gXznnc/r6Urz8WZ7mLm6VYV
+				94IbSDgJencBdjqQASPybhCAAFZdRwNH3icAvefOvH2X6IwKPqrzzlcP6dutXPmzA2QHfbSI253b
+				GZzmMyVqQnyLz/zuQHdlbtj8mq9oQSSaRHcu1Z1IV1dEpJ8EJzSJHcQg29L5lhxy9zwt3TB3R03I
+				CjiXton2Fxs+sq0DfkQhltJ85JvsTmljMgssqEWJYZ5dpM297lkLpLNzY4zLNBtT1uwgnGB8XqUY
+				HI0mCQOivw07K2vJC4xM78LMl7+HvVAQWDXm4dwmaGvhMgFpKRxX/rJp8g4JKXrsVFyAjRDYVDiN
+				wDLvxnATxmSPsTYJnvxWwHTSxiycpbKXwdb4xMRPdzGD6bSd6wT0Q3WHEJoRtK2AznUxExkVkgkp
+				Tke2k5CiS1eQgohOQnFKV3RFQsrOdgqidNWaJrJt85jXDwgfaQX2fsNgzzbGerjc3owTRUHHCAI0
+				kqf4drlalz8rVU57RsLJEc0pz5+txtPmQAukzZzBMJa8kPfZPkeAIkEi0OrZiZaaCMb2+gza5uyf
+				XOK9Kzkxhsg5Swed38tSZnbPW152hie/oRaUsmZQpEsBEI8SRPgrl1SP7TwarqxVori7Ow5M15kn
+				LJs355zd0ZLwbrVayaCgeqD7+lAmYtbGrAv/kKW3w+4L010Xs6w/BWsE65Dvoa6ueoRhfNRV|
+			)
+			(checksum "6FC1C7E4D1D76EC6AAC44F1B5F2AE1D0")
+		)
+	)
+)

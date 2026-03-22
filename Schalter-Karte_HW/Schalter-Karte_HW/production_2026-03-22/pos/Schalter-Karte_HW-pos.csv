@@ -1,0 +1,10 @@
+### Footprint positions - created on 2026-03-22T18:01:06+0100 ###
+### Printed by KiCad version 9.0.8-9.0.8~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val            Package                               PosX       PosY       Rot  Side
+F1        3557-2         Fuse_Holder_Littelfuse_ATOF_287     3.0807    -3.5827  -90.0000  top
+J1        MKDS_3-2_5.08  MKDS_3_2_508                        3.0807    -2.8937  180.0000  top
+J2        MKDS_3-2_5.08  MKDS_3_2_508                        3.0807    -5.1181    0.0000  top
+SW1       L101011MS02Q   L10101_Schiebeschalter              3.0807    -4.4449   90.0000  top
+## End

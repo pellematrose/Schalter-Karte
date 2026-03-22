@@ -1,5 +1,5 @@
 ** Drc report for Schalter-Karte_HW.kicad_pcb **
-** Created on 2026-03-21T21:42:50+0100 **
+** Created on 2026-03-22T18:01:05+0100 **
 ** Report includes: Fehler, Warnungen **
 
 ** Found 0 DRC violations **
