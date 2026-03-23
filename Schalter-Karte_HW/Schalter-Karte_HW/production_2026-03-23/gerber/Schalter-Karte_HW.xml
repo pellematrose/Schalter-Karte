@@ -249,7 +249,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-23T08:42:57" software="KiCad EDA" lastChange="2026-03-23T08:42:57">
+  <HistoryRecord number="1" origination="2026-03-23T12:08:02" software="KiCad EDA" lastChange="2026-03-23T12:08:02">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.8" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -279,11 +279,13 @@
         <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MKDS_3-2_5.08"/>
       </Characteristics>
     </BomItem>
-    <BomItem OEMDesignNumberRef="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q" quantity="1" pinCount="6" category="ELECTRICAL" description="Slide Switch, dual pole double throw">
+    <BomItem OEMDesignNumberRef="_PS_LIB_MECH_L10101_Schiebeschalter_L102011MS02Q" quantity="1" pinCount="6" category="ELECTRICAL" description="Slide Switch, dual pole double throw">
       <RefDes name="SW1" packageRef="L10101_Schiebeschalter" populate="true" layerRef="F.Cu"/>
       <Characteristics category="ELECTRICAL">
         <Textual definitionSource="KICAD" textualCharacteristicName="Digikey" textualCharacteristicValue="CKC5106-ND"/>
-        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="L101011MS02Q"/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="LCSC" textualCharacteristicValue=""/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Mouser" textualCharacteristicValue=""/>
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="L102011MS02Q"/>
       </Characteristics>
     </BomItem>
     <BomItem OEMDesignNumberRef="_PS_LIB_PCB__PCB_~" quantity="1" pinCount="0" category="DOCUMENT">
@@ -2975,7 +2977,7 @@
             </Marking>
           </AssemblyDrawing>
         </Package>
-        <Component refDes="SW1" packageRef="L10101_Schiebeschalter_1" part="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q" layerRef="F.Cu" mountType="THMT">
+        <Component refDes="SW1" packageRef="L10101_Schiebeschalter_1" part="_PS_LIB_MECH_L10101_Schiebeschalter_L102011MS02Q" layerRef="F.Cu" mountType="THMT">
           <Xform rotation="90.0"/>
           <Location x="78.250" y="-112.90"/>
         </Component>
@@ -8614,7 +8616,7 @@
             </Features>
           </Set>
           <Set geometryUsage="TEXT" componentRef="SW1">
-            <NonstandardAttribute name="TEXT" value="L101011MS02Q" type="STRING"/>
+            <NonstandardAttribute name="TEXT" value="L102011MS02Q" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
@@ -8659,15 +8661,18 @@
                   <PolyStepSegment x="84.454819" y="-116.595237"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
-                <Line startX="85.454819" startY="-115.309523" endX="85.454819" endY="-115.880951">
-                  <LineDescRef id="LINE_2"/>
-                </Line>
                 <Polyline>
-                  <PolyBegin x="85.454819" y="-115.595237"/>
-                  <PolyStepSegment x="84.454819" y="-115.595237"/>
-                  <PolyStepSegment x="84.597676" y="-115.690475"/>
-                  <PolyStepSegment x="84.692914" y="-115.785713"/>
-                  <PolyStepSegment x="84.740533" y="-115.880951"/>
+                  <PolyBegin x="84.550057" y="-115.880951"/>
+                  <PolyStepSegment x="84.502438" y="-115.833332"/>
+                  <PolyStepSegment x="84.454819" y="-115.738094"/>
+                  <PolyStepSegment x="84.454819" y="-115.499999"/>
+                  <PolyStepSegment x="84.502438" y="-115.404761"/>
+                  <PolyStepSegment x="84.550057" y="-115.357142"/>
+                  <PolyStepSegment x="84.645295" y="-115.309523"/>
+                  <PolyStepSegment x="84.740533" y="-115.309523"/>
+                  <PolyStepSegment x="84.883390" y="-115.357142"/>
+                  <PolyStepSegment x="85.454819" y="-115.928570"/>
+                  <PolyStepSegment x="85.454819" y="-115.309523"/>
                   <LineDescRef id="LINE_2"/>
                 </Polyline>
                 <Polyline>
@@ -16130,8 +16135,8 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-23T08:42:57" version="1"/>
-    <AvlItem OEMDesignNumber="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-23T12:08:02" version="1"/>
+    <AvlItem OEMDesignNumber="_PS_LIB_MECH_L10101_Schiebeschalter_L102011MS02Q"/>
     <AvlItem OEMDesignNumber="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2"/>
     <AvlItem OEMDesignNumber="_PS_LIB_CON_MKDS_3_2_508_MKDS_3-2_5.08"/>
     <AvlItem OEMDesignNumber="_PS_LIB_PCB__PCB_~"/>

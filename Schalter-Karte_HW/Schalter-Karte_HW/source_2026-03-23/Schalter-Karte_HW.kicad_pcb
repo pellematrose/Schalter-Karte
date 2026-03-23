@@ -110,7 +110,7 @@
 				)
 			)
 		)
-		(property "Value" "L101011MS02Q"
+		(property "Value" "L102011MS02Q"
 			(at -0.1 6.75 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -154,6 +154,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11aa9159-18fc-425a-b70b-f956021975c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d9256f9-eeb7-42b7-863f-d0fc2c9ab4ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b17775cb-8085-47f6-b35d-656beca422f5")
 			(effects
 				(font
 					(size 1 1)
@@ -3358,7 +3384,7 @@
 			(net 2 "+24V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1edf0643-c46f-479c-a9c6-2fec3c87d39c")
+			(uuid "6d633fbc-b868-4560-bd83-cd7d49985f19")
 		)
 		(pad "2" thru_hole circle
 			(at 6.735 -1.7 270)
@@ -3380,7 +3406,7 @@
 			(net 1 "+24V_sicher")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "895a5cc8-7933-41ce-ab89-0dcdaacb807f")
+			(uuid "9d5aad9b-2684-4985-a959-bda476d619cb")
 		)
 		(embedded_fonts no)
 		(embedded_files

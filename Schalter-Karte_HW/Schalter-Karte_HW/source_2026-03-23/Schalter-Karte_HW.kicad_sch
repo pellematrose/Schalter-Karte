@@ -1451,7 +1451,7 @@
 				)
 			)
 		)
-		(property "Value" "L101011MS02Q"
+		(property "Value" "L102011MS02Q"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -1487,6 +1487,24 @@
 			)
 		)
 		(property "Digikey" "CKC5106-ND"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 139.7 93.98 0)
 			(effects
 				(font
