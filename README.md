@@ -1,6 +1,6 @@
 # Schalter-Karte
 
-Eine Schalter-Karte als Ersatz für Sicherungsautomaten im 24V-System der ELIDA.
+Eine Schalter-Karte als Ersatz für Sicherungsautomaten in 24V-Systemen.
 
 ---
 
@@ -27,6 +27,8 @@ Der angeschlossene Verbraucher erhält **GND extern**.
 
 ## 📏 Technische Daten
 
+- Versorgungsspannung: 24V (+-20%)
+- Laststrom: 4A (Schiebeschalter, Leiterbahnen)
 - **PCB Maße:** 17,5 mm × 77 mm  
 - Die Abmessungen orientieren sich an einem **Sicherungsautomaten**
 
